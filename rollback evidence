@@ -1,0 +1,49 @@
+ROLLBACK EVIDENCE
+
+Project: Task 8 – Sales Tracker in Google Sheets
+Dataset: Superstore Retail Sales Dataset
+
+CURRENT VERSION
+
+The project currently contains one saved version of the Sales Tracker.
+
+File Name:
+Version_1.xlsx
+
+VERSION 1
+
+Version 1 is the currently preserved working copy of the Sales Tracker.
+
+The file contains:
+• Raw retail sales data
+• Daily Sales calculation
+• Weekly Sales calculation
+• Monthly Sales calculation
+• SUMIFS-based date calculations
+• Data validation for Category
+• Data validation for Quantity
+• Data validation for Sales
+• Manual verification of the calculated totals
+
+ROLLBACK PLAN
+
+Version 1 is preserved as the available backup/rollback point.
+
+If future changes are made to the Sales Tracker, the existing Version 1 file should not be overwritten. A new version should be created and saved separately.
+
+For example:
+
+Version 1 → Existing saved version
+Version 2 → Future updated version
+
+This approach ensures that the original Version 1 file can be restored if any unwanted changes are made.
+
+VERSION CONTROL STATUS
+
+Version 1: Preserved
+Version 2: Not created yet
+Rollback point: Version 1
+
+NOTE
+
+Only Version 1 has been preserved for this project at the current stage. Future updates should be saved as a separate version instead of replacing Version 1.
